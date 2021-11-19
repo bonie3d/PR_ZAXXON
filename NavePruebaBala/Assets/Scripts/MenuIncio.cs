@@ -26,10 +26,14 @@ public class MenuIncio : MonoBehaviour
        
     {
         SceneManager.LoadScene("Menu");
+
+       
     }
 
     public void Salir ()
     {
+        SceneManager.LoadScene("Exit");
+
         Application.Quit();
     }
 }

@@ -5,7 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - cuboprefab: {fileID: 6313581684555403999, guid: 5a4c3f06501921f42b8804f91d5a4b6a, type: 3}
-  - initPos: {fileID: 7933499433254364839, guid: 5a4c3f06501921f42b8804f91d5a4b6a, type: 3}
+  - initPos: {fileID: 357505301176762567, guid: b8a8ae9dd2e3c0e4ea49c2b1d68607e2, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
