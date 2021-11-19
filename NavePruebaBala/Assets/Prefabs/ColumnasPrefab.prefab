@@ -57,5 +57,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b212dbe7259ba643968731aa9d6a2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuboprefab: {fileID: 0}
+  cuboprefab: {fileID: 6313581684555403999}
   initPos: {fileID: 0}
