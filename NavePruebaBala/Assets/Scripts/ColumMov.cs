@@ -23,10 +23,10 @@ public class ColumMov : MonoBehaviour
     void Start()
     {
         speed = 15f;
-
+        /*
         intervalo = 0.15f;
 
-        StartCoroutine("CrearObstaculos");
+        //StartCoroutine("CrearObstaculos");
 
         Vector3 destPos = initPos.position;
         Vector3 despl = new Vector3(desplX, 0, 0);
@@ -39,7 +39,7 @@ public class ColumMov : MonoBehaviour
             destPos = destPos + despl;
 
         }
-
+*/
     }
 
     // Update is called once per frame

@@ -685,6 +685,20 @@ MonoBehaviour:
   SpawnPiont: {fileID: 1562739878}
   ShotForce: 1000
   ShotRate: 0.5
+--- !u!114 &2017907204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017907200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02826621184795f4693bdd0398c10d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NavDav: {fileID: 2017907200}
+  movPos: {x: 0, y: 0, z: 0}
 --- !u!1001 &1649593211231447009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -696,13 +710,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inst_Column
       objectReference: {fileID: 0}
+    - target: {fileID: 1649593211249760073, guid: c7bb6623a958a3d43b19b1d522b81ee5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1649593211249760077, guid: c7bb6623a958a3d43b19b1d522b81ee5, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1649593211249760077, guid: c7bb6623a958a3d43b19b1d522b81ee5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10
+      value: -25.7
       objectReference: {fileID: 0}
     - target: {fileID: 1649593211249760077, guid: c7bb6623a958a3d43b19b1d522b81ee5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -740,5 +758,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1649593211249760076, guid: c7bb6623a958a3d43b19b1d522b81ee5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c7bb6623a958a3d43b19b1d522b81ee5, type: 3}
