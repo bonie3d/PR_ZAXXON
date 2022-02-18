@@ -8,15 +8,25 @@ public class ColumMov : MonoBehaviour
     [SerializeField] GameObject cuboprefab;
     [SerializeField] Transform initPos;
 
+    float separacion;
+    float intervalo;
+    //[SerializeField] GameObject initObject;
+    PosiIni PosiIni;
+    [SerializeField] float distanciaObstaculos;
 
-    float desplX = 1f;
+
+    float desplX = 4f;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = 10f;
+        speed = 15f;
+
+        intervalo = 0.15f;
+
+        StartCoroutine("CrearObstaculos");
 
         Vector3 destPos = initPos.position;
         Vector3 despl = new Vector3(desplX, 0, 0);

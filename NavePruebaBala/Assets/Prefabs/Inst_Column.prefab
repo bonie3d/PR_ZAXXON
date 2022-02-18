@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 357505301176762561}
   - component: {fileID: 357505301176762562}
   - component: {fileID: 357505301176762563}
+  - component: {fileID: 4332191961212424731}
   m_Layer: 0
   m_Name: Inst_Column
   m_TagString: Untagged
@@ -91,7 +92,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357505301176762572}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -111,3 +112,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cuboprefab: {fileID: 6313581684555403999, guid: 5a4c3f06501921f42b8804f91d5a4b6a, type: 3}
   initPos: {fileID: 357505301176762567}
+--- !u!114 &4332191961212424731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357505301176762572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faaf1c9029a47e549a9af5dc8357f27b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
