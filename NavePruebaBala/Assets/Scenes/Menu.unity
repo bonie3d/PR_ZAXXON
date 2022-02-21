@@ -1193,7 +1193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SCORE
+  m_Text: MUSIC
 --- !u!222 &1761835363
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1,9 +1,12 @@
-using System.Collections;
+                                                                                                                                                                                                                                                                                                                                                               using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MovNave : MonoBehaviour
 {
+
+    
     //Variables para el movimiento
     [SerializeField] float desplSpeed;
     [SerializeField] float rotationSpeed;
@@ -28,10 +31,12 @@ public class MovNave : MonoBehaviour
         //IMPORTANTE: el método Update tiene que estar vacío
         MoverNarve();
 
+ 
+
     }
 
 
-    //Método que mueve la nave
+    //Método que mueve la nave                                                                                                                                                                                                                                
     void MoverNarve()
     {
         //Obtengo los valores de los ejes
@@ -54,6 +59,8 @@ public class MovNave : MonoBehaviour
             transform.Translate(Vector3.up * Time.deltaTime * desplSpeed * desplY, Space.World);
         }
 
+        
+
         //Rotación con joystick derecho
         //transform.Rotate(0f, 0f, desplR * Time.deltaTime * -rotationSpeed);
 
@@ -69,5 +76,13 @@ public class MovNave : MonoBehaviour
         }
         */
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+
+        gameObject.SetActive(false);
+    }
+
 
 }
